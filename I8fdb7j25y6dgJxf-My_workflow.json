@@ -241,7 +241,6 @@
         "promptType": "define",
         "text": "={{ $json.text }}",
         "options": {
-          "systemMessage": "Extrahiere die Rechnungsdaten aus dem folgenden Text.  \nAntworte ausschließlich als gültiges JSON-Objekt.  \nSchreibe die ECHTEN Werte aus der Rechnung in die Felder.  \nFalls ein Wert fehlt, setze \"null\".  \nSchreibe KEIN Wort \"string\".  \nKein Text, keine Erklärungen, keine Backticks, keine Markdown-Formatierung.\nGib die Daten im JSON-Format zurück. Stelle sicher, dass alle Strings gültiges JSON sind:\nWenn ein Text Anführungszeichen enthält, schreibe sie immer als \\\" heraus.“Wenn ein Text Anführungszeichen enthält, schreibe sie immer als \\\" heraus.“\nVerwende keine unescaped Quotes.\n\nFalls Anführungszeichen im Text vorkommen, ersetze sie durch \\\".\n\nKein Markdown, keine json-Blöcke, nur sauberes JSON.\"\n\n{\n  \"Rechnungsnummer\": \"\",\n  \"Rechnungsdatum\": \"\",\n  \"Lieferant_Name\": \"\",\n  \"Lieferant_Adresse\": \"\",\n  \"Lieferant_UStID\": \"\",\n  \"Empfaenger_Name\": \"\",\n  \"Empfaenger_Adresse\": \"\",\n  \"Leistungsdatum\": \"\",\n  \"Leistungsbeschreibung\": \"\",\n  \"BetragNetto\": \"\",\n  \"MwStSatz\": \"\",\n  \"MwStBetrag\": \"\",\n  \"BetragBrutto\": \"\",\n  \"Faelligkeit\": \"\",\n  \"IBAN\": \"\",\n  \"BIC\": \"\",\n  \"Zahlungsbedingungen\": \"\"\n}\n"
         }
       },
       "type": "@n8n/n8n-nodes-langchain.agent",
