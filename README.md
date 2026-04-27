@@ -1,7 +1,8 @@
-README
+READ ME
+This repository provides a structural overview and proof-of-concept for an AI-driven invoice automation pipeline.
 
-Hello, this is just a rough explanation of my code and how I extract the key data points from invoices.
+Currently, the repository contains the core JSON configurations and extraction schemas. These files define the precise data points, structural rules, and parameters the AI uses to target, parse, and extract the relevant information from raw invoice documents.
 
-The full backend is intentionally not included, since I don’t want the project to be easily copied and reused. However, those of you with a technical background will probably recognize how this structure could be extended.
+Please note: The full backend logic and production-ready execution code have been intentionally omitted to protect proprietary logic and maintain data security standards.
 
-In theory, this setup can be used to build a complete invoice automation pipeline, especially when combined with an OCR component to process and extract data from documents.
+However, developers with a technical background will easily recognize how this setup serves as the blueprint for a larger system. When combined with an open-source OCR component and AI models, these JSON structures act as the core decision-making engine to build a fully automated, end-to-end data processing workflow.
