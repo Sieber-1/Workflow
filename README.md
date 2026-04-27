@@ -1,4 +1,4 @@
-READ ME
+
 This repository provides a structural overview and proof-of-concept for an AI-driven invoice automation pipeline.
 
 Currently, the repository contains the core JSON configurations and extraction schemas. These files define the precise data points, structural rules, and parameters the AI uses to target, parse, and extract the relevant information from raw invoice documents.
